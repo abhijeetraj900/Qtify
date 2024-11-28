@@ -1,23 +1,52 @@
 .footerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100vw;
-  height: auto;
   padding: 20px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e0e0e0;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .imgCard {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .img img {
   width: 80px;
   height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.textWrapper {
+  text-align: center;
 }
 
 .songName {
   font-size: 16px;
+  font-weight: bold;
+  color: #333;
 }
 
 .albumName {
   font-size: 12px;
+  color: #666;
+}
+
+.footerText {
+  font-size: 14px;
+  color: #444;
+  margin-top: 10px;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #d9534f; /* Lovely red shade */
 }
